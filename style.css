@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(22, 22, 81);
+}
+h1{
+    color: white;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.one{
+    color: rgb(236, 21, 93);
+}
+.two{
+    color: rgb(13, 215, 188);
+}
+img{
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+button{
+    margin-left: 35%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    cursor: pointer;
+    width: 30%;
+    font-family: "Jaro", sans-serif;
+    color: white;
+    font-size: larger;
+    letter-spacing: normal;
+    word-spacing: 6px;
+    transition: all 0.5s;
+}
+button:hover{
+    box-shadow: 2px 2px 20px rgb(236, 21, 93) ;
+    letter-spacing: 3px;
+}
+@media screen and (max-width:400px) {
+    img{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    }
+    h1{
+    color: white;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: xx-large;
+    font-style: normal;
+    text-align: center;
+    }
+    button{
+    margin-left: 7%;
+    margin-bottom: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    cursor: pointer;
+    width: 85%;
+    font-family: "Jaro", sans-serif;
+    color: white;
+    font-size: larger;
+    letter-spacing: normal;
+    word-spacing: 6px;
+    transition: all 0.5s;
+    }
+}
