@@ -28,7 +28,7 @@ function takeCommand(message){
         else if(message.includes("who are you")){
             speak("I am Jarvis,created by Muhammad Hashim");
         }
-        else if(message.includes("who is hashim's best friend")||message.includes("hashim best friend") ||message.includes("Hashim best friend")){
+        else if(message.includes("who is hashim's best friend") || message.includes("hashim best friend") || message.includes("Hashim best friend")){
             speak("Bilal is Hashim's Best Friend");
         }
         else if(message.includes("how are you")){
